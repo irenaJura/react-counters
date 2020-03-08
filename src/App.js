@@ -19,7 +19,10 @@ class App extends Component {
     this.setState({ counters });
   };
   handleReset = () => {
-    const counters = this.state.counters.map(c => (c.value = 0));
+    const counters = this.state.counters.map(c => {
+      c.value = 0;
+      return c;
+    });
     this.setState({ counters });
   };
   handleDelete = counterId => {
