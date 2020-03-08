@@ -1,3 +1,7 @@
+React Crash Course - Counters
+
+An in-depth course about React, including raising and handling events, updating the state, passing data to components and many more topics.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
